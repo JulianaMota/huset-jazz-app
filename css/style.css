@@ -79,3 +79,19 @@ nav a{
     font-size: var(--font-size-small);
     text-align: center;
 }
+
+
+
+/*** HEADER SUBPAGES***/
+.header-subpage{
+    height: 80px;
+
+}
+.header-subpage .huset-h{
+    height: 41px;
+    margin: 0 0 0 20px;
+}
+.header-subpage h1{
+    font-size: 35px;
+    padding: 0 10px 5px 0px;
+}
