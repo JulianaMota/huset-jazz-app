@@ -1,11 +1,12 @@
 /***  ROOT  ***/
 :root {
     /* Colors */
-    --accent-color-dark-yellow: #bfa14f;
-    --accent-color-purple: #642869;
-    --accent-color-light-grey: #f3f3f3;
-    --accent-color-dark-grey: #464869;
-    --accent-color-black: #161622;
+    --accent-color-brass: #bfa14f;
+    --accent-color-vanila: #d8d1c1;
+    --accent-color-peacock: #4b7174;
+    --accent-color-dark-blue: #211e3d;
+    --accent-color-cream: #efe9dc;
+    --
     /* Typefaces */
     --display-font: 'CHICAGO moonshine demo', cursive;
     --title-font: 'Elsie','Elsie Swash Caps', cursive;
