@@ -11,7 +11,8 @@
     --display-font: 'CHICAGO moonshine demo', cursive;
     --title-font: 'Elsie','Elsie Swash Caps', cursive;
     --text-font: 'Montserrat', sans-serif;
-    --src: url(../fonts/chicagomoonshinedemo-Regular.ttf),
+    --src: url(../fonts/chicagomoonshinedemo-Regular.ttf);
+    --font-size-small: 10px;
 }
 
 /*** general style ***/
@@ -66,4 +67,15 @@ aside{
 nav{
     display: grid;
     grid-template-columns: repeat(5 , 1fr);
+    margin: 8px 0 8px 0;
+}
+nav a img{
+    height: 25px;
+}
+nav a{
+    text-decoration: none;
+    font-family: var(--text-font);
+    color: var(--accent-color-black);
+    font-size: var(--font-size-small);
+    text-align: center;
 }
