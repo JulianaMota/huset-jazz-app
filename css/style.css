@@ -1,0 +1,20 @@
+/***  ROOT  ***/
+:root {
+    /* Colors */
+    --accent-color-dark-yellow: #bfa14f;
+    --accent-color-purple: #642869;
+    --accent-color-light-grey: #f3f3f3;
+    --accent-color-dark-grey: #464869;
+    --accent-color-black: #161622;
+    /* Typefaces */
+    --display-font: 'CHICAGO moonshine demo', cursive;
+    --title-font: 'Elsie','Elsie Swash Caps', cursive;
+    --text-font: 'Montserrat', sans-serif;
+    --src: url(../fonts/chicagomoonshinedemo-Regular.ttf),
+}
+
+h1{
+    font-family:  var(--display-font);
+    font-size: 60px;
+    font-weight: 100;
+}
