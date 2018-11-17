@@ -19,7 +19,8 @@ function showEvents(eventsList){
         copy.querySelector(".date").textContent=event.acf.date;
         copy.querySelector(".hour").textContent=event.acf.hour;
         copy.querySelector(".price span").textContent=event.acf.door_price;
-        copy.querySelector("a").href="event-detail.html?eventid="+event.id;
+        console.log(event.id)
+        copy.querySelector(".detail-link").href="event-detail.html?jazzid="+event.id;
 
         document.querySelector("section").appendChild(copy);
         }
