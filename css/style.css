@@ -22,9 +22,18 @@
     margin: 0;
 }
 
+
+/*** BACKGROUND ***/
+.back{
+    background: url("../images/jazz-background.svg") repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+
 /*** HEADER HOMEPAGE***/
 header{
-    display:grid;
+    display: grid;
     grid-template-columns: auto 1fr auto;
     height: 128px;
     background-color: var(--accent-color-vanila);
@@ -54,7 +63,36 @@ header .login-icon img{
     height: 20px;
     width: 10px;
 }
+
+
 /*** MAIN HOMEPAGE***/
+#main-home{
+    padding: 155px 10% 5% 10%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 10%;
+}
+.btn-grid{
+    display: grid;
+    grid-template-rows: 1fr;
+    text-decoration: none;
+}
+.btn-grid span{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    text-align: center;
+    align-self: flex-end;
+    padding-bottom: 15%;
+    font-family: var(--display-font);
+    color: var(--accent-color-vanila);
+
+}
+.btn-grid img{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
 
 
 /*** ASIDE HOMEPAGE***/
