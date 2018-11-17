@@ -13,6 +13,7 @@
     --text-font: 'Montserrat', sans-serif;
     --src: url(../fonts/chicagomoonshinedemo-Regular.ttf);
     --font-size-small: 10px;
+    --font-size-title: 20px;
 }
 
 /*** general style ***/
@@ -64,14 +65,29 @@ header .login-icon img{
     width: 10px;
 }
 
+/*** HEADER SUBPAGES***/
+.header-subpage{
+    height: 80px;
+
+}
+.header-subpage .huset-h{
+    height: 41px;
+    margin: 0 0 0 20px;
+}
+.header-subpage h1{
+    font-size: 35px;
+    padding: 0 10px 5px 0;
+}
+
+
 
 /*** MAIN HOMEPAGE***/
 #main-home{
-    padding: 155px 10% 5% 10%;
+    padding: 170px 10% 150px 10%;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
-    grid-gap: 10%;
+    grid-gap: 7%;
 }
 .btn-grid{
     display: grid;
@@ -83,19 +99,25 @@ header .login-icon img{
     grid-column: 1/2;
     text-align: center;
     align-self: flex-end;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
     font-family: var(--display-font);
     color: var(--accent-color-vanila);
-
+    font-size: var(--font-size-title);
 }
 .btn-grid img{
     grid-row: 1/2;
     grid-column: 1/2;
+    border: solid var(--accent-color-brass);
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 
+/*** MAIN EVENTS PAGE***/
 
-/*** ASIDE HOMEPAGE***/
+
+
+/*** ASIDE All PAGES***/
 aside{
     bottom: 0;
     position: fixed;
@@ -120,16 +142,3 @@ nav a{
 
 
 
-/*** HEADER SUBPAGES***/
-.header-subpage{
-    height: 80px;
-
-}
-.header-subpage .huset-h{
-    height: 41px;
-    margin: 0 0 0 20px;
-}
-.header-subpage h1{
-    font-size: 35px;
-    padding: 0 10px 5px 0px;
-}
