@@ -114,7 +114,9 @@ header .login-icon img{
 
 
 /*** MAIN EVENTS PAGE***/
-
+main{
+    padding-top: 80px;
+}
 
 
 /*** ASIDE All PAGES***/
