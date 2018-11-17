@@ -162,7 +162,7 @@ h2{
     grid-row: 2/3;
     display: grid;
     grid-template-columns: 4fr 1fr;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.9);
     height: 30px;
     align-self: center;
 }
