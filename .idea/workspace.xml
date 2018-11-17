@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4d4f3e5-338e-4d84-8a6d-d6e3ddaa6258" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/events.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/shared.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/shared.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/events.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/events.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,21 +42,21 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1614" />
-          <entry key="html" value="706" />
-          <entry key="js" value="125" />
+          <entry key="html" value="742" />
+          <entry key="js" value="405" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1614" />
-          <entry key="HTML" value="706" />
-          <entry key="JavaScript" value="125" />
+          <entry key="HTML" value="742" />
+          <entry key="JavaScript" value="405" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.22123016">
+    <splitter split-orientation="horizontal" split-proportion="0.41269842">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -73,8 +71,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/events.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="412">
-                  <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+                <state relative-caret-position="497">
+                  <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -149,8 +147,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/events.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+                <state relative-caret-position="446">
+                  <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
                 </state>
               </provider>
             </entry>
@@ -243,12 +241,12 @@
       <updated>1542355955259</updated>
       <workItem from="1542355956874" duration="1983000" />
       <workItem from="1542380237579" duration="17857000" />
-      <workItem from="1542448763562" duration="13458000" />
+      <workItem from="1542448763562" duration="19524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33298000" />
+    <option name="totallyTimeSpent" value="39364000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -350,15 +348,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/events.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        <state relative-caret-position="497">
+          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/events.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="446">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
