@@ -16,11 +16,11 @@
     <a class="login-icon" href=""><img src="images/black-keyhole.svg" alt="login icon"></a>
 </header>
 <main>
-    <article>
-        <template>
-            <img src="" alt="huset photo">
-            <h2>About Huset</h2>
-            <p>Huset history</p>
+    <article id="about">
+        <template id="template-about">
+            <img class="huset-img" src="" alt="huset photo">
+            <h2>about title</h2>
+            <p class="huset-d">Huset history</p>
             <div>
                 <p>for more info</p>
                 <a href="https://huset-kbh.dk/"><button>huset oficial website</button></a>
@@ -28,32 +28,32 @@
             <h3>artist info</h3>
             <section>
                 <h4>storage and transport of gear:</h4>
-                <p>storage info</p>
+                <p class="storage">storage info</p>
                 <h4>live performance rehearsal:</h4>
-                <p>rehearsal info</p>
-                <p>Contact: <span></span></p>
+                <p class="rehearsal">rehearsal info</p>
+                <p class="contact-reh">Contact: <span></span></p>
                 <h4>release concerts:</h4>
-                <p>release info</p>
-                <p>Contact:<span></span></p>
+                <p class="release">release info</p>
+                <p class="contact-rel">Contact:<span></span></p>
                 <h4>payment info:</h4>
-                <p>pay info</p>
+                <p class="pay">pay info</p>
                 <h4>pr:</h4>
-                <p>pr info</p>
+                <p class="pr">pr info</p>
             </section>
         </template>
     </article>
-    <article>
-        <template>
-            <h2>contacts</h2>
-            <div>map</div>
+    <article id="contacts">
+        <template id="template-contacts">
+            <h2>title</h2>
+            <div class="map">map</div>
             <h3>huset name</h3>
             <ul>
-                <li>address</li>
-                <li>post code</li>
-                <li>phone number</li>
-                <li>email</li>
-                <li>Office opening hours: <span></span></li>
-                <li>Venues opening hours: <span></span></li>
+                <li class="address">address</li>
+                <li class="post">post code</li>
+                <li class="phone">phone number</li>
+                <li class="email">email</li>
+                <li class="o-hours">Office opening hours: <span></span></li>
+                <li class="v-hours">Venues opening hours: <span></span></li>
             </ul>
         </template>
     </article>
@@ -71,6 +71,7 @@
         <a href="about.html"><img src="images/huset-h-logo.svg" alt="huset icon">about</a>
     </nav>
 </aside>
-<script src=""></script>
+<script src="js/shared.js"></script>
+<script src="js/about.js"></script>
 </body>
 </html>
