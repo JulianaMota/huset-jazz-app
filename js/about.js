@@ -28,12 +28,8 @@ function showAbout(dataList){
         copy.querySelector(".pay").innerHTML=data.acf.payment_info;
         copy.querySelector(".pr").innerHTML=data.acf.pr;
 
-
         document.querySelector("#about").appendChild(copy);
-
     })
-
-
 }
 
 function showContacts(contactList){
@@ -50,11 +46,8 @@ function showContacts(contactList){
         clone.querySelector(".o-hours span").textContent=contact.acf.office_opening_hour;
         clone.querySelector(".v-hours span").textContent=contact.acf.venues_opening_hours;
 
-
         document.querySelector("#contacts").appendChild(clone);
-
     })
-
 }
 
 getAboutInfo();
