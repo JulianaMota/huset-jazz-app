@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-356.5 3047 17 16">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #000;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Messages" transform="translate(-385 2654)">
+    <rect id="Rectangle_117" data-name="Rectangle 117" class="cls-1" width="16" height="16" transform="translate(29 393)"/>
+    <path id="Path_50" data-name="Path 50" class="cls-2" d="M14,2H2L8,7ZM0,2A2.006,2.006,0,0,1,2,0H14a2.006,2.006,0,0,1,2,2v8a2.006,2.006,0,0,1-2,2H2a2.006,2.006,0,0,1-2-2Z" transform="translate(29 395)"/>
+  </g>
+</svg>
