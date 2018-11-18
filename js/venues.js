@@ -11,6 +11,7 @@ function showVenues(venuesList){
         const copy = template.cloneNode(true);
         copy.querySelector("h3").textContent=venue.title.rendered;
         copy.querySelector("img").src=venue.acf.menu_photo.sizes.medium;
+        copy.querySelector(".detail-venue").href="venue-detail.html?venueid="+venue.id;
 
         document.querySelector("section").appendChild(copy);
     })
