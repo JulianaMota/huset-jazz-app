@@ -35,7 +35,6 @@ function showOneEvent(data){
 
 
     document.querySelector("article").appendChild(copy);
-
 }
 
 loadOneEvent(eventID);
