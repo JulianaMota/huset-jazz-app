@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4d4f3e5-338e-4d84-8a6d-d6e3ddaa6258" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/jam.html" beforeDir="false" afterPath="$PROJECT_DIR$/jam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jam.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jam.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,14 +44,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="2272" />
-          <entry key="html" value="2644" />
+          <entry key="html" value="3060" />
           <entry key="js" value="1370" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="2272" />
-          <entry key="HTML" value="2644" />
+          <entry key="HTML" value="3060" />
           <entry key="JavaScript" value="1370" />
         </counts>
       </usages-collector>
@@ -91,8 +91,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/about.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+                <state relative-caret-position="233">
+                  <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -156,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/shared.js" />
         <option value="$PROJECT_DIR$/events.html" />
@@ -170,6 +169,7 @@
         <option value="$PROJECT_DIR$/venue-detail.html" />
         <option value="$PROJECT_DIR$/jam.html" />
         <option value="$PROJECT_DIR$/js/jam.js" />
+        <option value="$PROJECT_DIR$/about.html" />
       </list>
     </option>
   </component>
@@ -251,12 +251,12 @@
       <workItem from="1542380237579" duration="17857000" />
       <workItem from="1542448763562" duration="37436000" />
       <workItem from="1542541827106" duration="906000" />
-      <workItem from="1542555492069" duration="15089000" />
+      <workItem from="1542555492069" duration="17070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73271000" />
+    <option name="totallyTimeSpent" value="75252000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,8 +393,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="233">
+          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
         </state>
       </provider>
     </entry>
