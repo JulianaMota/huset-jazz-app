@@ -15,6 +15,7 @@
     --font-size-small: 10px;
     --font-size-title: 20px;
     --font-size-text1: 16px;
+    --font-size-body-text: 14px;
 }
 
 /*** general style ***/
@@ -28,7 +29,36 @@
 body{
     margin: 0;
 }
-
+.dark-blue-titles{
+    font-family: var(--title-font);
+    font-size: var(--font-size-title);
+    color: var(--accent-color-dark-blue);
+    font-weight: 100;
+}
+.dark-blue-text{
+    font-family: var(--text-font);
+    font-size: var(--font-size-body-text);
+    color: var(--accent-color-dark-blue);
+}
+.p-events-vanilla{
+    text-align: right;
+    font-family: var(--title-font);
+    color: var(--accent-color-vanila);
+    font-size: var (--font-size-text1);
+    padding: 8px;
+}
+.title-yellow{
+    font-family: var(--title-font);
+    font-size: var(--font-size-title);
+    color: var(--accent-color-brass);
+    font-weight: 100;
+}
+.p-events-blue{
+    font-family: var(--title-font);
+    font-size: var(--font-size-text1);
+    color: var(--accent-color-peacock);
+    font-weight: 100;
+}
 
 
 /*** BACKGROUND ***/
@@ -155,13 +185,7 @@ h2{
     grid-row: 1/2;
     align-self: flex-start;
 }
-.p-events-vanilla{
-    text-align: right;
-    font-family: var(--title-font);
-    color: var(--accent-color-vanila);
-    font-size: var (--font-size-text1);
-    padding: 8px;
-}
+
 #each-event a div{
     grid-column: 1/4;
     grid-row: 2/3;
@@ -171,22 +195,11 @@ h2{
     height: 30px;
     align-self: center;
 }
-#each-event a div h3, p{
+#each-event a div h3, #each-event a div p{
     align-self: center;
     padding-left: 10px;
 }
-.title-yellow{
-    font-family: var(--title-font);
-    font-size: var(--font-size-title);
-    color: var(--accent-color-brass);
-    font-weight: 100;
-}
-.p-events-blue{
-    font-family: var(--title-font);
-    font-size: var(--font-size-text1);
-    color: var(--accent-color-peacock);
-    font-weight: 100;
-}
+
 
 
 /*** MAIN EVENT-DETAIL PAGE***/
@@ -202,9 +215,10 @@ h2{
     text-align: left;
     grid-column: 1/2;
     grid-row: 2/3;
-    padding: 5px 0 0 20px;
+    padding: 5px 0 5px 20px;
     margin-bottom: 15px;
     background-color: rgba(255, 255, 255, 0.9);
+    align-self: center;
 }
 .detail-article .feature-img{
     grid-column: 1/2;
@@ -250,12 +264,34 @@ h2{
     font-size: var(--font-size-text1);
     color: var(--accent-color-brass);
     border: solid var(--accent-color-brass);
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: transparent;
-    padding: 4px 0 4px 0;
+    padding: 5px 0 5px 0;
     width:230px;
-    box-shadow: 3px 5px #888888;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
+/*button buy ticket*/
+.detail-article .price-grid{
+    display:grid;
+    grid-template: 1fr 1fr/ 1fr;
+}
+.detail-article .price-grid .o-price{
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+.detail-article .price-grid .d-price{
+    text-align: center;
+}
+.detail-article .price-grid .access{
+    text-align: left;
+    padding: 30px 20px 5px 20px;
+}
+/*button event description*/
+.detail-article .desc-grid{
+    background-color: var(--accent-color-cream);
+    display: grid;
+}
+
 
 /*** ASIDE All PAGES***/
 aside{
