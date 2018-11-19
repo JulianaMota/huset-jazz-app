@@ -64,6 +64,11 @@ body{
     color: var(--accent-color-peacock);
     font-weight: 100;
 }
+.p-text-blue{
+    font-family: var(--text-font);
+    font-size: var(--font-size-body-text);
+    color: var(--accent-color-peacock);
+}
 
 
 /*** BACKGROUND ***/
@@ -323,6 +328,40 @@ h2{
 /*artist social media*/
 .social-media-grid{
     display: grid;
+    grid-template: 1fr 1fr/1fr 1fr;
+    background-color: var(--accent-color-cream);
+    padding: 20px 0 20px 0;
+}
+.social-media-grid .website{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    display: grid;
+    grid-template: 1fr/ 30px 250px;
+    justify-content: center;
+}
+.social-media-grid .link-face{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: right;
+}
+.social-media-grid .link-inst{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.social-media-grid img{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0 5px;
+}
+/*artist album*/
+.album-grid{
+    display: grid;
+    grid-template: 1fr/1fr;
+    padding: 30px 20px 90px 20px;
+}
+.album-grid h3{
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 
