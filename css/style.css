@@ -18,7 +18,7 @@
     --font-size-body-text: 14px;
 }
 
-/*** general style ***/
+/*** GENERAL STYLE ***/
 * {
     box-sizing: border-box;
     width: 100%;
@@ -434,18 +434,32 @@ h2{
 .book-grid .grid-EO img{
     width: 20px;
 }
-/*venue book contact*/
+/*venue room and tech detail*/
 .grid-r-detail{
     display: grid;
     grid-template: auto 1fr/ 1fr;
+    padding-bottom: 20px;
 }
 .grid-r-detail h3{
     text-align: center;
     padding: 30px 0 20px 0;
 }
+.grid-r-detail ul li{
+    padding: 3px 20px 3px 20px;
+}
+.tech-box{
+    background-color: var(--accent-color-cream);
+    padding-bottom: 80px;
+}
+.tech-box ul .grid-li{
+    display: grid;
+    grid-template: 1fr/1fr 2fr;
+    padding: 10px 20px 10px 20px;
+}
+/*** ASIDE NAV All PAGES***/
 
 
-/*** ASIDE All PAGES***/
+/*** ASIDE NAV All PAGES***/
 aside{
     bottom: 0;
     position: fixed;
