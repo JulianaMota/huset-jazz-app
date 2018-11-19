@@ -365,6 +365,38 @@ h2{
 }
 
 
+/*** MAIN VENUES PAGE***/
+#grid-venues{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 20px 0 20px;
+    grid-gap: 30px;
+}
+#grid-venues .detail-venue{
+    display: grid;
+    grid-template: 1fr/ 1fr;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+#grid-venues .detail-venue img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: solid var(--accent-color-brass);
+    border-radius: 15px;
+}
+#grid-venues .detail-venue h3{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: flex-end;
+    text-align: center;
+    font-family: var(--title-font);
+    font-size: var(--font-size-title);
+    color: var(--accent-color-vanila);
+    font-weight: 100;
+    z-index: 1;
+    padding-bottom: 20px;
+}
+
 /*** ASIDE All PAGES***/
 aside{
     bottom: 0;
