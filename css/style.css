@@ -397,6 +397,54 @@ h2{
     padding-bottom: 20px;
 }
 
+/*** MAIN VENUE DETAIL***/
+
+/*venue main info*/
+.venue-main-info{
+    display: grid;
+    grid-template: repeat(5, auto)/ 1fr;
+}
+.venue-main-info h2{
+    padding: 10px 20px 3px 20px;
+    text-align: left;
+}
+.venue-main-info h3{
+    padding: 0 20px 30px 20px;
+}
+.venue-main-info .venue-text{
+    padding: 0 20px 30px 20px;
+}
+/*venue book contact*/
+.book-grid{
+    display: grid;
+    grid-template: repeat(4, auto)/ 1fr;
+    background-color: var(--accent-color-cream);
+    padding-bottom: 20px;
+}
+.book-grid h3{
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+.book-grid .grid-EO{
+    display: grid;
+    grid-template: 1fr/ 30px auto;
+    justify-content: center;
+    padding: 5px 0 5px 0;
+}
+.book-grid .grid-EO img{
+    width: 20px;
+}
+/*venue book contact*/
+.grid-r-detail{
+    display: grid;
+    grid-template: auto 1fr/ 1fr;
+}
+.grid-r-detail h3{
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+
+
 /*** ASIDE All PAGES***/
 aside{
     bottom: 0;
