@@ -16,16 +16,18 @@
     <a class="login-icon" href=""><img src="images/black-keyhole.svg" alt="login icon"></a>
 </header>
 <main>
-    <article>
+    <article class="detail-article">
         <template id="event-detail-template">
-            <div>
+            <div class="grid-art-img">
                 <img class="feature-img" src="" alt="artist image">
-                <h2 class="title-yellow">Title</h2>
+                <h2 class="title-yellow artist-title">Title</h2>
             </div>
-            <p class="date">Date</p>
-            <p class="hour">Hour</p>
-            <p class="door-hour">door hour:<span></span></p>
-            <h3 class="venue">venue</h3>
+            <div class="main-info-grid">
+                <p class="date p-events-blue">Date</p>
+                <p class="hour p-events-blue">Hour</p>
+                <p class="door-hour p-events-blue">door hour: <span></span></p>
+                <h3 class="venue title-yellow">venue</h3>
+            </div>
             <a class="buy-ticket" href=""><button>GET TICKET</button></a>
             <ul>
                 <li class="o-price">online price: <span></span>kr + fee</li>
