@@ -18,7 +18,7 @@ function showOneEvent(data){
     copy.querySelector("h2").textContent=data.title.rendered;
     copy.querySelector(".date").textContent=data.acf.date;
     copy.querySelector(".hour").textContent=data.acf.hour;
-    copy.querySelector(".door-hour span").textContent=data.acf.hour;
+    copy.querySelector(".door-hour span").textContent=data.acf.door_hour;
     copy.querySelector(".venue").textContent=data.acf.venue;
     copy.querySelector(".buy-ticket").href=data.acf.link_ticket;
     copy.querySelector(".o-price span").textContent=data.acf.online_price;
