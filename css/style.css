@@ -30,6 +30,9 @@
 body{
     margin: 0;
 }
+li{
+    list-style-type: none;
+}
 .dark-blue-titles{
     font-family: var(--title-font);
     font-size: var(--font-size-title);
@@ -533,6 +536,9 @@ h2{
 
 
 /*** ABOUT HUSET PAGE***/
+.main-about-page{
+    padding-bottom: 58px;
+}
 
 /*main about info*/
 #about .main-about-grid{
@@ -594,7 +600,14 @@ h2{
 #contacts{
     display: grid;
     grid-template: auto auto auto/1fr;
-    padding: 0 20px 0 20px;
+    padding: 0 20px 40px 20px;
+}
+#contacts h3{
+    font-weight:bolder;
+    padding: 20px 0 5px 0;
+}
+#contacts ul li{
+    padding: 2px 0 2px 0;
 }
 
 /*** ASIDE NAV All PAGES***/

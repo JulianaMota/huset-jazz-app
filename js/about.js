@@ -45,7 +45,7 @@ function showContacts(contactList){
         clone.querySelector(".address").textContent=contact.acf.address;
         clone.querySelector(".post").textContent=contact.acf.postal_code;
         clone.querySelector(".phone span").textContent=contact.acf.main_phone_number;
-        clone.querySelector(".email span").textContent=contact.acf.main_phone_number;
+        clone.querySelector(".email").textContent=contact.acf.main_email;
         clone.querySelector(".o-hours span").textContent=contact.acf.office_opening_hour;
         clone.querySelector(".v-hours span").textContent=contact.acf.venues_opening_hours;
 
