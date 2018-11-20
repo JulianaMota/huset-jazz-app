@@ -19,14 +19,16 @@ function showAbout(dataList){
         }
 
         copy.querySelector("h2").textContent=data.title.rendered;
-        copy.querySelector(".huset-d").textContent=data.acf.intro_text;
+        copy.querySelector(".huset-d").innerHTML=data.acf.intro_text;
         copy.querySelector(".storage").textContent=data.acf.storage_and_transport_of_gear;
         copy.querySelector(".rehearsal").textContent=data.acf.live_performance_rehearsal;
-        copy.querySelector(".contact-reh span").textContent=data.acf.contact_rehearsal;
+        copy.querySelector(".contact-reh a").textContent=data.acf.contact_rehearsal;
         copy.querySelector(".release").innerHTML=data.acf.release_concerts;
-        copy.querySelector(".contact-rel span").textContent=data.acf.contact_release;
+        copy.querySelector(".contact-rel a").textContent=data.acf.contact_release;
         copy.querySelector(".pay").innerHTML=data.acf.payment_info;
+        copy.querySelector(".pay-email a").textContent=data.acf.pay_email;
         copy.querySelector(".pr").innerHTML=data.acf.pr;
+        copy.querySelector(".pr-email a").innerHTML=data.acf.pr_email;
 
         document.querySelector("#about").appendChild(copy);
     })
@@ -42,7 +44,8 @@ function showContacts(contactList){
         clone.querySelector("h3").textContent=contact.acf.place_name;
         clone.querySelector(".address").textContent=contact.acf.address;
         clone.querySelector(".post").textContent=contact.acf.postal_code;
-        clone.querySelector(".phone").textContent=contact.acf.main_phone_number;
+        clone.querySelector(".phone span").textContent=contact.acf.main_phone_number;
+        clone.querySelector(".email span").textContent=contact.acf.main_phone_number;
         clone.querySelector(".o-hours span").textContent=contact.acf.office_opening_hour;
         clone.querySelector(".v-hours span").textContent=contact.acf.venues_opening_hours;
 
