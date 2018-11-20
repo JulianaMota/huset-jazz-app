@@ -27,7 +27,7 @@ function showOneEvent(data){
     copy.querySelector(".description").innerHTML=data.content.rendered;
     copy.querySelector(".artist-img").src=data.acf.artist_photos.sizes.medium;
     copy.querySelector(".art-names").innerHTML=data.acf.musicians_names;
-    copy.querySelector(".small-bio").textContent=data.acf.artist_description;
+    copy.querySelector(".small-bio").innerHTML=data.acf.artist_description;
     copy.querySelector(".website").href=data.acf.artist_website;
     copy.querySelector(".link-web").textContent=data.acf.artist_website;
     copy.querySelector(".link-face").href=data.acf.artist_facebook;
