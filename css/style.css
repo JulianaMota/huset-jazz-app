@@ -68,7 +68,7 @@ a{
     color: var(--accent-color-brass);
     font-weight: 100;
 }
-.p-events-blue{
+.p-blue-serif{
     font-family: var(--title-font);
     font-size: var(--font-size-text1);
     color: var(--accent-color-peacock);
@@ -84,6 +84,7 @@ a{
     font-size: var(--font-size-body-text);
     color: var(--accent-color-brass);
 }
+
 
 
 /*** BACKGROUND ***/
@@ -285,7 +286,7 @@ h2{
     flex-direction: row;
     justify-content: center;
 }
-.btn-ticket{
+.btn-style{
     font-family: var(--title-font);
     font-size: var(--font-size-text1);
     color: var(--accent-color-brass);
@@ -625,6 +626,70 @@ h2{
 #contacts ul li{
     padding: 2px 0 2px 0;
 }
+
+/*** MAIN LOGIN PAGE ***/
+.login-grid{
+    display: grid;
+    padding: 80px  30px 90px 30px;
+}
+.login-grid h2{
+    padding-bottom: 5px;
+}
+.login-grid h3{
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 100;
+}
+.input-grid{
+    display: grid;
+    grid-template: 1fr/30px auto;
+    padding: 20px 0 20px 0;
+}
+.input-style{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--accent-color-peacock);
+    padding: 10px;
+}
+.login-grid img{
+    width: 20px;
+    padding: 0 0 0 0;
+    align-self: center;
+}
+.grid-submit{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    justify-content: center;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+.grid-submit label{
+    display: grid;
+    grid-template: 1fr/ auto auto;
+    text-align: left;
+    padding: 5px 0 10px 0;
+}
+.grid-submit label input{
+    border: solid 5px black;
+    justify-self: left;
+    align-self: center;
+}
+.login-grid button{
+    padding: 15px 0 15px 0;
+    width: 150px;
+    justify-self: center;
+}
+.grid-submit .cancel-btn{
+    padding: 10px 0 10px 0;
+    width: 100px;
+    color: var(--accent-color-peacock);
+    border-color: var(--accent-color-peacock);
+    justify-self: center;
+}
+
+
 
 /*** ASIDE NAV All PAGES***/
 aside{
