@@ -36,6 +36,9 @@ li{
 a{
     text-decoration: none;
 }
+.current{
+    opacity: 0.4;
+}
 .dark-blue-titles{
     font-family: var(--title-font);
     font-size: var(--font-size-title);
