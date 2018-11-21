@@ -627,15 +627,15 @@ h2{
     padding: 2px 0 2px 0;
 }
 
-/*** MAIN LOGIN PAGE ***/
-.login-grid{
+/*** MAIN LOGIN SIGN UP PAGE ***/
+.login-signup-grid{
     display: grid;
     padding: 80px  30px 90px 30px;
 }
-.login-grid h2{
+.login-signup-grid h2{
     padding-bottom: 5px;
 }
-.login-grid h3{
+.login-signup-grid h3{
     padding-bottom: 20px;
     text-align: center;
     font-weight: 100;
@@ -652,7 +652,7 @@ h2{
     border-bottom: 1px solid var(--accent-color-peacock);
     padding: 10px;
 }
-.login-grid img{
+.login-signup-grid img{
     width: 20px;
     padding: 0 0 0 0;
     align-self: center;
@@ -660,23 +660,15 @@ h2{
 .grid-submit{
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 5px;
+    grid-gap: 10px;
     justify-content: center;
     padding: 20px 0 0 0;
     text-align: center;
 }
-.grid-submit label{
-    display: grid;
-    grid-template: 1fr/ auto auto;
-    text-align: left;
-    padding: 5px 0 10px 0;
+.grid-submit .btn-signup{
+    margin-bottom: 30px;
 }
-.grid-submit label input{
-    border: solid 5px black;
-    justify-self: left;
-    align-self: center;
-}
-.login-grid button{
+.login-signup-grid .btn-signup{
     padding: 15px 0 15px 0;
     width: 150px;
     justify-self: center;
@@ -688,8 +680,20 @@ h2{
     border-color: var(--accent-color-peacock);
     justify-self: center;
 }
-
-
+.grid-music{
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(5%, 10%));
+    padding: 20px 0 20px 0;
+    grid-gap: 4px;
+}
+.grid-music button{
+    border: none;
+    background-color: transparent;
+}
+.grid-music button:focus{
+    background-color: var(--accent-color-peacock);
+}
 
 /*** ASIDE NAV All PAGES***/
 aside{

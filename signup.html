@@ -15,50 +15,50 @@
     <h1>JAZZ</h1>
     <a class="login-icon" href="login.html"><img src="images/black-keyhole.svg" alt="login icon"></a>
 </header>
-<main>
+<main class="login-signup-grid">
     <h2>sign up</h2>
-    <h3>for jam sessions</h3>
-    <section>
-        <img src="images/profile.svg" alt="profile icon">
-        <input type="text" placeholder="name" name="uname" required>
-    </section>
-    <section>
-        <img src="" alt="mail icon">
-        <input type="text" placeholder="email" name="uname" required>
-    </section>
-    <section>
-        <img src="images/lock.svg" alt="lock icon">
-        <input type="password" placeholder="password" name="psw" required>
-    </section>
-    <section>
-        <img src="images/lock.svg" alt="lock icon">
-        <input type="password" placeholder="repeat password" name="psw-repeat" required>
-    </section>
-    <section>
-        <img src="images/phone.svg" alt="phone">
-        <input type="tel" placeholder="phone number" name="phone" required>
-    </section>
-    <section>
-        <img src="images/phone.svg" alt="music">
-        <p>music instrument</p>
-        <div>
-            <button><img src="images/web.svg"></button>
-            <button><img src="images/web.svg"></button>
-            <button><img src="images/web.svg"></button>
-            <button><img src="images/web.svg"></button>
-            <button><img src="images/web.svg"></button>
-            <button><img src="images/web.svg"></button>
-            <button><img src="images/web.svg"></button>
-            <button><img src="images/web.svg"></button>
-        </div>
-    </section>
-    <section>
-        <button type="submit">sign up</button>
-        <label>
-            <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label>
-        <button type="button" class="cancelbtn">Cancel</button>
-    </section>
+    <h3 class="dark-blue-text-serif">for jam sessions</h3>
+    <form action="">
+        <section class="input-grid">
+            <img src="images/profile.svg" alt="profile icon">
+            <input class="input-style p-text-blue" type="text" placeholder="name" name="uname" required>
+        </section>
+        <section class="input-grid">
+            <img src="images/mail.svg" alt="mail icon">
+            <input class="input-style p-text-blue" type="text" placeholder="email" name="uname" required>
+        </section>
+        <section class="input-grid">
+            <img src="images/lock.svg" alt="lock icon">
+            <input class="input-style p-text-blue" type="password" placeholder="password" name="psw" required>
+        </section>
+        <section class="input-grid">
+            <img src="images/lock.svg" alt="lock icon">
+            <input class="input-style p-text-blue" type="password" placeholder="repeat password" name="psw-repeat" required>
+        </section>
+        <section class="input-grid">
+            <img src="images/phone.svg" alt="phone">
+            <input class="input-style p-text-blue" type="tel" placeholder="phone number" name="phone" required>
+        </section>
+        <section class="input-grid">
+            <img src="images/music-player.svg" alt="music">
+            <p class="input-style p-text-blue">select your music instrument</p>
+            <div class="grid-music">
+                <button type="button"><img src="images/violin.svg"></button>
+                <button type="button"><img src="images/drum-set.svg"></button>
+                <button type="button"><img src="images/cello.svg"></button>
+                <button type="button"><img src="images/microphone2.svg"></button>
+                <button type="button"><img src="images/double-bass.svg"></button>
+                <button type="button"><img src="images/piano.svg"></button>
+                <button type="button"><img src="images/saxophone.svg"></button>
+                <button type="button"><img src="images/guitar.svg"></button>
+            </div>
+        </section>
+        <section class="grid-submit">
+            <button class="btn-style btn-signup" type="submit">sign up</button>
+            <button type="button" class="btn-style cancel-btn">Cancel</button>
+            <span><a href="login.html" class="p-blue-serif">I have already account</a></span>
+        </section>
+    </form>
 </main>
 <aside>
     <nav>
