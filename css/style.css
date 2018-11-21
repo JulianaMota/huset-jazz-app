@@ -718,5 +718,25 @@ nav a{
     text-align: center;
 }
 
+@media all and (min-width:750px) {
+    #each-event{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 50px 90px 50px;
+        grid-gap: 50px;
+    }
+
+    @media all and (min-width:1300px){
+        #each-event{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 0 200px 90px 200px;
+            grid-gap: 50px;
+        }
+    }
+}
+
+
+
 
 
