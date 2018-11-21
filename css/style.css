@@ -282,7 +282,7 @@ h2{
     flex-direction: row;
     justify-content: center;
 }
-.detail-article .buy-ticket .btn-ticket{
+.btn-ticket{
     font-family: var(--title-font);
     font-size: var(--font-size-text1);
     color: var(--accent-color-brass);
@@ -298,7 +298,7 @@ h2{
     display:grid;
     grid-template: 1fr 1fr/ 1fr;
 }
-.detail-article .price-grid .o-price{
+.detail-article .price-grid .o-price, .detail-article .price-grid .free{
     text-align: center;
     padding: 10px 0 0 0;
 }
@@ -331,7 +331,7 @@ h2{
     text-align: center;
     padding: 20px 0 10px 0;
 }
-.art-bio-grid .art-names{
+.art-bio-grid .art-names,.art-bio-grid .apply-jam{
     text-align: center;
     padding: 0 0 20px 0;
 }
@@ -345,6 +345,7 @@ h2{
     text-decoration: none;
     text-align: center;
 }
+
 /*artist social media*/
 .social-media-grid{
     display: grid;
@@ -485,6 +486,7 @@ h2{
 .jam-title-grid{
     display: grid;
     grid-template: 1fr/1fr;
+    position: fixed;
 }
 .jam-title-grid img{
     grid-column: 1/2;
@@ -504,6 +506,7 @@ h2{
     display: grid;
     background-color: var(--accent-color-cream);
     padding: 20px 20px 20px 20px;
+    margin-top: 160px;
 }
 /*jam sessions grid*/
 .jam-session{

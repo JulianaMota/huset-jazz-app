@@ -1,7 +1,7 @@
 const template = document.querySelector("#jam-template").content;
 
 function getJamSessions(){
-    fetch(baseLink+"jam_session").then(res => res.json()).then(showJamS);
+    fetch(baseLink+"jam_session").then(res => res.json()).then(sortData);
 }
 
 function showJamS(jamList){
@@ -44,6 +44,14 @@ function showJamS(jamList){
 
         document.querySelector(".jam-session").appendChild(copy);
     })
+}
+
+function sortData(data){{
+    data.sort(function(a, b){
+        return a.acf.date_for_sorting - b.acf.date_for_sorting
+    })
+}
+    showJamS(data)
 }
 
 getJamSessions();

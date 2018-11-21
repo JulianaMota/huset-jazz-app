@@ -1,7 +1,7 @@
 const template = document.querySelector("#template-events").content;
 
 function getJazzMusic(){
-    fetch(baseLink+"music?categories=2&_embed").then(res => res.json()).then(showEvents);
+    fetch(baseLink+"music?categories=2&_embed").then(res => res.json()).then(sortData);
 }
 
 function showEvents(eventsList){
@@ -18,7 +18,16 @@ function showEvents(eventsList){
         }
         copy.querySelector(".date").textContent=event.acf.date;
         copy.querySelector(".hour").textContent=event.acf.hour;
-        copy.querySelector(".price span").textContent=event.acf.door_price;
+
+        if(event.acf.door_price){
+            copy.querySelector(".price span").textContent = event.acf.door_price;
+            copy.querySelector(".free").remove();
+        }else{
+            copy.querySelector(".price").remove();
+            copy.querySelector(".free").textContent = event.acf.gratis_event;
+
+        }
+
         console.log(event.id)
         copy.querySelector(".detail-link").href="event-detail.html?jazzid="+event.id;
 
@@ -26,5 +35,13 @@ function showEvents(eventsList){
         }
     )
 }
+function sortData(data){{
+        data.sort(function(a, b){
+            return a.acf.date_start - b.acf.date_start
+        })
+    }
+    showEvents(data)
+}
+
 
 getJazzMusic();
