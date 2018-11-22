@@ -40,7 +40,8 @@ a{
     text-decoration: none;
 }
 .current{
-    opacity: 0.4;
+    transform: scale(0.7);
+    opacity: 0.6;
 }
 .dark-blue-titles{
     font-family: var(--title-font);
@@ -720,6 +721,9 @@ nav a{
     font-size: var(--font-size-small);
     text-align: center;
 }
+
+
+/*** DESKTOP PAGES***/
 
 @media all and (min-width:750px) {
     #each-event{
