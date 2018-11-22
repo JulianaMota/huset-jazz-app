@@ -514,7 +514,7 @@ h2{
     display: grid;
     background-color: var(--accent-color-cream);
     padding: 20px 20px 20px 20px;
-    margin-top: 160px;
+    margin-top: 45%;
 }
 /*jam sessions grid*/
 .jam-session{
